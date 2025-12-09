@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pure Pilates | Seja um Franqueado</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            fontFamily: {
+              serif: ['"Montserrat"', 'sans-serif'], // Primary font for headings and branding
+              sans: ['"Montserrat"', 'sans-serif'], // Also using Montserrat for body text as it's the brand font
+            },
+            colors: {
+              pure: {
+                DEFAULT: '#D6001C', // Brand Red
+                dark: '#111111',    // Brand Black
+                light: '#FFF0F2',   // Light Red/Pink for backgrounds
+                accent: '#A30015',  // Darker Red for hover
+                gray: '#37474F'     // Neutral Gray
+              }
+            }
+          }
+        }
+      }
+    </script>
+    <style>
+      html {
+        scroll-behavior: smooth;
+      }
+      body {
+        background-color: #FFFFFF;
+        color: #111111;
+        font-family: "Montserrat", sans-serif;
+      }
+      /* Custom shadow for the balls to give them depth */
+      .ball-shadow {
+        box-shadow: 20px 20px 60px rgba(0,0,0,0.3), -5px -5px 20px rgba(255,255,255,0.2) inset;
+      }
+    </style>
+  <script type="importmap">
+{
+  "imports": {
+    "react": "https://aistudiocdn.com/react@^19.2.0",
+    "react-dom/": "https://aistudiocdn.com/react-dom@^19.2.0/",
+    "react/": "https://aistudiocdn.com/react@^19.2.0/",
+    "@react-three/fiber": "https://aistudiocdn.com/@react-three/fiber@^9.4.0",
+    "@react-three/drei": "https://aistudiocdn.com/@react-three/drei@^10.7.7",
+    "three": "https://aistudiocdn.com/three@^0.181.1",
+    "framer-motion": "https://aistudiocdn.com/framer-motion@^12.23.24",
+    "lucide-react": "https://aistudiocdn.com/lucide-react@^0.553.0"
+  }
+}
+</script>
+</head>
+  <body>
+    <div id="root"></div>
+  </body>
+</html>
